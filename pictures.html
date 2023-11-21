@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pictures Page</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Style the header */
+header {
+  background-image: url("banner.jpg");
+  background-position: right top;
+  padding: 60px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0;
+  background: #ecebc9;
+  padding: 20px;
+  color:white;
+}
+
+/* Style the news nav menu */
+.news {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:white;
+  padding: 20px;
+  border: 1px;
+  outline-style: solid;
+ outline-width: thin;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*style the link */
+
+a{
+  color:grey;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color:grey;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:white;
+  background-position: middle;
+  color:black;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-image: url("banner.jpg");
+  background-position: right bottom;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 210px;
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+img.islogo {
+  opacity: 0.5;
+  width:100%;
+  height:auto;
+}
+
+img.islogo:hover {
+  opacity: 1.0;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+   
+
+<header>
+  <h2><br></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="pictures.html">Pictures</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style="text-align:center;">PICTURES</h1>
+<div class="gallery">
+  <a target="_self" href="picture1.jpg">
+    <img src="picture1.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture2.jpeg">
+    <img src="picture2.jpeg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture3.jpeg">
+    <img src="picture3.jpeg"  width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture4.jpg">
+    <img src="picture4.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture5.jpg">
+    <img src="picture5.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="picture6.jpeg">
+    <img src="picture6.jpeg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture7.jpeg">
+    <img src="picture7.jpeg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture8.jpeg">
+    <img src="picture8.jpeg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture9.jpeg">
+    <img src="picture9.jpeg"  width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture10.jpeg">
+    <img src="picture10.jpeg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture11.jpeg">
+    <img src="picture11.jpeg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture12.jpeg">
+    <img src="picture12.jpeg" width="600" height="400">
+  </a>
+</div>
+.
+<div class="gallery">
+  <a target="_self" href="picture13.jpeg">
+    <img src="picture13.jpeg"  width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture14.jpg">
+    <img src="picture14.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture15.jpeg">
+    <img src="picture15.jpeg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture16.jpg">
+    <img src="picture16.jpg" width="600" height="400">
+  </a>
+</div>
+
+</article>
+
+<nav  class="news">
+    <ul>
+<a href="https://ispsc.edu.ph/campuses/santa-maria-campus/"><img src="logo.png" alt="ISPSC" class="islogo"></a> </br></br>
+<a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02G9q64RVMUS3AKpd7z89BQBGdEh2PQMg9V2Mr5vJFV9Ts7U93614zPsLBo4VK9Fokl%26id%3D61551472926598&show_text=true&width=500" width="500" height="723" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">The College of Computing Studies (CCS) proudly presents the newly elected Computing Society of the Philippines (CSP) Officers of Ilocos Sur Polytechnic State College - Sta. Maria Campus A.Y. 2023-2024. Headed by the elected President, Hillary Buis together with her fellow officers are determined to flourish, embellish and to strengthen the mandated CCS organization within the guidance of their newly appointed adviser, Mrs. Cherry Lynn Navato and Dr. Joy G. Bea, CCS Dean</a>
+</br></br>
+<a href="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2FCCSISPSCOfficial%2Fvideos%2F1347567629516010%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">WATCH: CCS students steal the show with their electrifying freestyle moves during the CCS Teacher's Day Celebration organized by the Computing Society of the Philippines - ISPSC Santa Maria at the College Gymnasium</a>
+</br></br>
+<a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02tMWBJ9fS9Ws7ywEQPyc4mBcgeG9mHd3BUi8gZjmonKXygjF4NcGdj1gmRyDet2eXl%26id%3D100095026794023&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">The Ilocos Sur Polytechnic State College enrollment schedule throughout the school year 2023-2024</a>  
+ </ul>
+</nav>
+</section>
+
+<footer>
+  <p>all rights reserved 2023</p>
+</footer>
+
+</body>
+</html>
+
