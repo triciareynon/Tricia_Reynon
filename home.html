@@ -1,25 +1,34 @@
-<html>
+<!DOCTYPE html>
+
 <head>
     <title>HOME Page</title>
-    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
     * {
       box-sizing: border-box;
-      /* Style the header */
+    }
+    
+
+    
+    /* Style the header */
     header {
       background-image: url("banner.jpg");
       background-position: right top;
-      padding: 60px;
+      padding: 1px;
       text-align: center;
-      font-size: 200px;
+      
       color: white;
     }
     
+    /* Container for flexboxes */
+    section {
+      display: -webkit-flex;
+      display: flex;
+    }
     
     /* Style the navigation menu */
-    .nav {
+    nav {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 0;
@@ -39,10 +48,24 @@
     
     
     /* Style the list inside the menu */
-    .nav ul {
+    nav ul {
       list-style-type: none;
       padding: 0;
     }
+    li a {
+  display: block;
+  width: 60px;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+  display: block;
+}
     
     /*style the link */
     
@@ -50,25 +73,25 @@
       color:grey;
     }
     
-    .nav a:link {
+    a:link {
       text-decoration: none;
     }
     
-    .nav a:visited {
+    a:visited {
       text-decoration: none;
     }
     
-    .nav a:hover {
+    a:hover {
       text-decoration: none;
       color: black;
     }
     
-    .nav a:active {
+    a:active {
       color:grey;
     }
     
     /* Style the content */
-   article {
+    article {
       -webkit-flex: 3;
       -ms-flex: 3;
       flex: 3;
@@ -82,7 +105,7 @@
     footer {
       background-image: url("banner.jpg");
       background-position: right bottom;
-      padding: 1px;
+      padding: 1in;
       text-align: center;
       color: white;
     }
@@ -105,33 +128,72 @@
         flex-direction: column;
       }
     }
-    }
     </style>
     </head>
     <body>
-    <div class="nav">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="profile.html">Profile</a></li>
-          <li><a href="pictures.html">Pictures</a></li>
-          <li><a href="videos.html">Videos</a></li>
-          <li><a href="about.html">About</a></li>
-        
-      <article>
-        <h1 style="text-align:center">HOME</h1>
-        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <p>Hi,I am Tricia Joy Reynon and I am 20 years old. Currently studying at Ilocos Sur Polytechnic State College. Taking Bachelor of Science in Information Technology. This website's content is composed of some pictures and videos of sunsets and also it includes the pictures of highschool and college friends, <br>also some pictures of people who are very important in my life.</p>
-        <a href="https://www.facebook.com/triciaajoymendozanavarroreynon/photos_by"><p style="text-align: center;">CONTACT ME HERE</p></a>
-      </article>
-  </ul>
-    </div>
-       
     
+       <div class="header">
+        <h1 style="text-align:center">BANNER</h1>
+      
     
+    <header>
+      <h2><br></h2>
+    </header>
     
-    <footer>
-      <p>all rights reserved 2023</p>
-    </footer>
+<section>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="pictures.html">Pictures</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+<article>
+  <h1 style="text-align:center">HOME</h1>
+  <div class="container">
+    <h3>Vision</h3>
+    <p>A vibrant and nurturing Polytechnic Service College for transforming lives and communities.</p>
+    <p>Filipino: (Pangitain) Maningning at mapag-arugang politeknikong serbisyo-kolehiyo para sa pagpapaunlad ng buhay at lipunan..
+
+    </p>
+
+    <p>
+        Iloco: (Sirmata) Narimat ken managtaripato nga serbisyo-kolehiyo politekniko para ti pannakabalbaliw iti biag ken kagimongan.
+
+    </p>
     
-    </body>
-    </html>
+
+</div>
+
+<div class="container2">
+    <h3>Mission</h3>
+    <p>To improve the lives of people and communities through quality instruction, innovations, productivity, initiatives, environment and industry-feasible technologies, resource mobilization and transformational outreach programs and services.
+    </p>
+    <p>Filipino: Mapaunlad ang buhay ng tao at lipunan sa pamamagitan ng de-kalidad na pagtuturo, pagkamalikhain, panguguna sa pagiging produktibo, teknolohiyang pangkapaligiran at industria, tamang paggamit ng pinagkukunang yaman at mga program at serbisyong makapagbabago sa kabuhayan.
+
+
+    </p>
+
+    <p><br>
+
+        Iloco: Mapadur-as iti panagbiag dagiti tattao ken gimong babaen iti de-kalidad a panagisuro, panagpartuat, nabunga ken naballigi a gannuat, teknolohiya a mangsaluad iti aglawlaw ken iti industria, naikalintegan a panagusar dagiti pagbaknangan ken pannakaipaay iti programa ken serbisyo nga mangidanon iti panagbalbaliw.
+    </p>
     
+  <a href="https://www.facebook.com/triciaajoymendozanavarroreynon/photos_by"><p style="text-align: center;">CONTACT ME HERE</p></a>
+</article>
+</ul>
+</div>
+
+
+
+<footer>
+  <p>all rights reserved 2023</p>
+</footer>
+
+</body>
+</html>
+
